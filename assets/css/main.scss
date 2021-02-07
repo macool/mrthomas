@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.widgets-wrapper {
+  text-align: center;
+
+  .widget-wrapper {
+    display: inline-block;
+    width: 49%;
+  }
+}
+
+#tradingview_c1112 {
+  height: 320px;
+}
