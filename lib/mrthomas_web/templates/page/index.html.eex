@@ -1,3 +1,7 @@
+<div class="scroll-buttons">
+  <button class="scroll-up" onclick="window.scrollBy(0, -100)">Up</button>
+  <button class="scroll-down" onclick="window.scrollBy(0, 100)">Down</button>
+</div>
 <div class="widgets-wrapper">
   <%= for pair <- @pairs do %>
     <%= render("pair_sm.html", pair: pair, conn: @conn) %>
