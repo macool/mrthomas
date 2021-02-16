@@ -7,3 +7,5 @@
     <%= render("pair_sm.html", pair: pair, conn: @conn) %>
   <% end %>
 </div>
+
+<%= render("ticker_tape.html", pairs: @pairs, conn: @conn) %>

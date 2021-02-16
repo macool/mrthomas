@@ -26,3 +26,5 @@
   </div>
   <!-- TradingView Widget END -->
 </div>
+
+<%= render("ticker_tape.html", pairs: @pairs, conn: @conn) %>
